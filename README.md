@@ -1,18 +1,46 @@
-## Getting Started
+# ☕ Minha Jornada em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+> "Todo expert já foi um iniciante." — E eu estou só começando.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## Sobre este repositório
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Este repositório é o registro da minha evolução aprendendo **Java do zero**.
+Aqui você vai encontrar exercícios, projetos e experimentos que fiz ao longo dos meus estudos — do básico ao avançado, commit por commit.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Não é um projeto perfeito. É um projeto **real**, feito com dedicação e muita vontade de crescer.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## O que já aprendi
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Lógica de programação com Java
+- Estruturas condicionais e de repetição
+- Manipulação de Strings
+- Orientação a Objetos (em andamento...)
+- Desenvolvimento de sistemas com cadastro e interface gráfica (GUI)
+
+---
+
+## Estrutura do projeto
+
+```
+📁 src/   → código-fonte dos projetos e exercícios
+📁 lib/   → dependências
+```
+
+---
+
+## Status
+
+🟢 Em evolução constante — novos commits toda semana!
+
+---
+
+## Sobre mim
+
+Sou **Glegorio**, estudante de Java apaixonado por tecnologia.
+Este repositório é prova de que todo dia é uma oportunidade de aprender algo novo.
+
+[![GitHub](https://img.shields.io/badge/GitHub-Glegorio-181717?style=flat&logo=github)](https://github.com/Glegorio)
