@@ -46,10 +46,10 @@ public class Sistema_Cad {
 
         System.out.println("\n|--- ENTRADAS ---|");
        
-        System.out.println("\n( 1 ) Saladas..........R$ 05.00"); 
-        System.out.println("( 2 ) Frios............R$ 08.00");
-        System.out.println("( 3 ) Torradas.........R$ 10.00");
-        System.out.println("( 4 ) Petiscos.........R$ 15.00");
+        System.out.println("\n( 1 ) Saladas..........R$ " + precos[0]); 
+        System.out.println("( 2 ) Frios............R$ " + precos[1]);
+        System.out.println("( 3 ) Torradas.........R$ " + precos[2]);
+        System.out.println("( 4 ) Petiscos.........R$ " + precos[3]);
 
         System.out.print("\nSelecione uma opção: ");
         int opcao = digitar.nextInt();
@@ -77,10 +77,10 @@ public class Sistema_Cad {
 
         System.out.println("\n|--- PRINCIPAIS ---|");
        
-        System.out.println("\n( 1 ) Massas...........R$ 10.00"); 
-        System.out.println("( 2 ) Sopa.............R$ 15.00");
-        System.out.println("( 3 ) Parmegiana.......R$ 25.00");
-        System.out.println("( 4 ) Carne............R$ 30.00");
+        System.out.println("\n( 1 ) Massas...........R$ " + precos[0]); 
+        System.out.println("( 2 ) Sopa.............R$ " + precos[1]);
+        System.out.println("( 3 ) Parmegiana.......R$ " + precos[2]);
+        System.out.println("( 4 ) Carne............R$ " + precos[3]);
 
         System.out.print("\nSelecione uma opção: ");
         int opcao = digitar.nextInt();
@@ -108,10 +108,10 @@ public class Sistema_Cad {
 
         System.out.println("\n|--- BEBIDAS ---|");
        
-        System.out.println("\n( 1 ) Água.............R$ 07.00"); 
-        System.out.println("( 2 ) Refrigerante.....R$ 08.50");
-        System.out.println("( 3 ) Sucos............R$ 08.00");
-        System.out.println("( 4 ) Alcólicas........R$ 15.00 ");
+        System.out.println("\n( 1 ) Água.............R$ " + precos[0]); 
+        System.out.println("( 2 ) Refrigerante.....R$ " + precos[1]);
+        System.out.println("( 3 ) Sucos............R$ " + precos[2]);
+        System.out.println("( 4 ) Alcólicas........R$ " + precos[3]);
 
         System.out.print("\nSelecione uma opção: ");
         int opcao = digitar.nextInt();
