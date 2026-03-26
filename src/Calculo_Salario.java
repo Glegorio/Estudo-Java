@@ -40,6 +40,11 @@ public class Calculo_Salario {
         		System.out.println("└────────────────────────────────────┘");
         		System.exit(0);
         		break;
+        		
+        	default:
+        		System.out.println("\n┌────────────────────────────────────┐");
+        		System.out.println("│           OPÇÃO INVÁLIDA...        │");
+        		System.out.println("└────────────────────────────────────┘");
         }
     }
     
@@ -66,7 +71,9 @@ public class Calculo_Salario {
     }
     
     public static double despesasMensais() {
+    int opcao = 0;
     
+    while (opcao != 5) {
     	System.out.println("\n╭──────────────────────╮");
         System.out.println("│     MENU DESPESAS    │");
         System.out.println("│──────────────────────│");
@@ -78,7 +85,7 @@ public class Calculo_Salario {
         System.out.println("╰──────────────────────╯");
         
         System.out.print("Selecione uma opção: ");
-        int opcao = digitar.nextInt();
+        opcao = digitar.nextInt();
         
         switch (opcao) {
         	case 1:
@@ -133,7 +140,7 @@ public class Calculo_Salario {
                 System.out.println("╰─────────────────────────────────────╯");	
             break;
         }
-       
+    }
     	return despesas;
     }
 
