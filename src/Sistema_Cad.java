@@ -46,10 +46,10 @@ public class Sistema_Cad {
 
         System.out.println("\n|--- ENTRADAS ---|");
        
-        System.out.println("\n( 1 ) Saladas..........R$ " + precos[0]); 
-        System.out.println("( 2 ) Frios............R$ " + precos[1]);
-        System.out.println("( 3 ) Torradas.........R$ " + precos[2]);
-        System.out.println("( 4 ) Petiscos.........R$ " + precos[3]);
+        System.out.printf("\n( 1 ) Saladas..........R$ %.2f%n" , precos[0]); 
+        System.out.printf("( 2 ) Frios............R$ %.2f%n" , precos[1]);
+        System.out.printf("( 3 ) Torradas.........R$ %.2f%n" , precos[2]);
+        System.out.printf("( 4 ) Petiscos.........R$ %.2f%n" , precos[3]);
 
         System.out.print("\nSelecione uma opção: ");
         int opcao = digitar.nextInt();
@@ -77,10 +77,10 @@ public class Sistema_Cad {
 
         System.out.println("\n|--- PRINCIPAIS ---|");
        
-        System.out.println("\n( 1 ) Massas...........R$ " + precos[0]); 
-        System.out.println("( 2 ) Sopa.............R$ " + precos[1]);
-        System.out.println("( 3 ) Parmegiana.......R$ " + precos[2]);
-        System.out.println("( 4 ) Carne............R$ " + precos[3]);
+        System.out.printf("\n( 1 ) Massas...........R$ %.2f%n" , precos[0]); 
+        System.out.printf("( 2 ) Sopa.............R$ %.2f%n" , precos[1]);
+        System.out.printf("( 3 ) Parmegiana.......R$ %.2f%n" , precos[2]);
+        System.out.printf("( 4 ) Carne............R$ %.2f%n" , precos[3]);
 
         System.out.print("\nSelecione uma opção: ");
         int opcao = digitar.nextInt();
@@ -108,10 +108,10 @@ public class Sistema_Cad {
 
         System.out.println("\n|--- BEBIDAS ---|");
        
-        System.out.println("\n( 1 ) Água.............R$ " + precos[0]); 
-        System.out.println("( 2 ) Refrigerante.....R$ " + precos[1]);
-        System.out.println("( 3 ) Sucos............R$ " + precos[2]);
-        System.out.println("( 4 ) Alcólicas........R$ " + precos[3]);
+        System.out.printf("\n( 1 ) Água.............R$ %.2f%n" , precos[0]); 
+        System.out.printf("( 2 ) Refrigerante.....R$ %.2f%n" , precos[1]);
+        System.out.printf("( 3 ) Sucos............R$ %.2f%n" , precos[2]);
+        System.out.printf("( 4 ) Alcólicas........R$ %.2f%n" , precos[3]);
 
         System.out.print("\nSelecione uma opção: ");
         int opcao = digitar.nextInt();
@@ -150,6 +150,8 @@ public class Sistema_Cad {
         System.out.println("|----------------------------|");
         
         return troco;
+
+        
     }
 
     public static void main(String[] args) throws Exception {
